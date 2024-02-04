@@ -3,23 +3,22 @@
   "python.terminal.activateEnvironment": false,
   "python.defaultInterpreterPath": "./.venv/bin/python",
   "python.languageServer": "Pylance",
-  "python.linting.flake8Enabled": true,
-  "python.linting.flake8Args": [
+  "flake8.args": [
     "--max-line-length",
     "140",
-    "--ignore=E203,W503,W504",
+    "--ignore=E203,W503,W504,E731",
   ],
-  "python.formatting.autopep8Args": [
+  "autopep8.args": [
     // セミコロンで改行しないようにする
     "--ignore",
-    "E70",
+    "E70,E731",
     // 1行の最大文字数を変更する
     "--max-line-length",
     "140",
   ],
   "[python]": {
     "editor.wordBasedSuggestions": "off",
-    "editor.defaultFormatter": "ms-python.python",
+    "editor.defaultFormatter": "ms-python.autopep8",
     "editor.formatOnSave": true,
   },
   "[markdown]": {

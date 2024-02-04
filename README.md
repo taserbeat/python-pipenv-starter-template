@@ -5,8 +5,8 @@
 
 - Visual Studio Code
 - Python 3.8 (ライブラリは Pipenv で管理)
-  - formatter は[autopep8](https://github.com/hhatto/autopep8)を使用
-  - linter は[flake8](https://github.com/PyCQA/flake8)を使用
+  - formatter は拡張機能の[autopep8](https://marketplace.visualstudio.com/items?itemName=ms-python.autopep8)を使用
+  - linter は拡張機能の[Flake8](https://marketplace.visualstudio.com/items?itemName=ms-python.flake8)を使用
 
 となります。
 
