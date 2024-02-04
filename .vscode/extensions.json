@@ -4,6 +4,8 @@
     "ms-python.python",
     "ms-python.vscode-pylance",
     "editorconfig.editorconfig",
-    "foxundermoon.shell-format"
+    "foxundermoon.shell-format",
+    "ms-python.flake8",
+    "ms-python.autopep8"
   ]
 }
