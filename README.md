@@ -4,7 +4,7 @@
 想定している開発環境は
 
 - Visual Studio Code
-- Python 3.8 (ライブラリは Pipenv で管理)
+- Python 3.13 (ライブラリは Pipenv で管理)
   - formatter は拡張機能の[autopep8](https://marketplace.visualstudio.com/items?itemName=ms-python.autopep8)を使用
   - linter は拡張機能の[Flake8](https://marketplace.visualstudio.com/items?itemName=ms-python.flake8)を使用
 
